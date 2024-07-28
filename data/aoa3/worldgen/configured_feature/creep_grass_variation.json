@@ -1,0 +1,54 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "state_provider": {
+                  "type": "simple_state_provider",
+                  "state": {
+                    "Name": "aoa3:giant_plant_stem"
+                  }
+                },
+                "block_placer": {
+                  "type": "minecraft:simple_block_placer"
+                },
+                "can_replace": true,
+                "xspread": 10,
+                "yspread": 1,
+                "zspread": 10,
+                "whitelist": [
+                  
+                ],
+                "blacklist": []
+              },
+              "type": "minecraft:random_patch"
+            },
+            "decorator": {
+              "config": {
+                "heightmap": "WORLD_SURFACE_WG"
+              },
+              "type": "minecraft:heightmap_spread_double"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "min": 128,
+        "max": 128
+      },
+      "type": "aoa3:n_times"
+    }
+  },
+  "type": "minecraft:decorated"
+}

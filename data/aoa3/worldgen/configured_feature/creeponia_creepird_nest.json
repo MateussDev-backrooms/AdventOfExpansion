@@ -1,0 +1,53 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "feature": {
+                  "config": {
+                    "spawn_entities": false,
+                    "processors": {
+                      "processors": []
+                    },
+                    "templates": [
+                      "aoa3:creeponia/decorations/creeponia_creepird_nests"
+                    ]
+                  },
+                  "type": "aoa3:structure_piece"
+                },
+                "decorator": {
+                  "config": {},
+                  "type": "minecraft:heightmap_world_surface"
+                }
+              },
+              "type": "minecraft:decorated"
+            },
+            "decorator": {
+              "config": {},
+              "type": "minecraft:square"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {
+            "chance": 84
+          },
+          "type": "minecraft:chance"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "min": 0,
+        "max": 1
+      },
+      "type": "aoa3:n_times"
+    }
+  },
+  "type": "minecraft:decorated"
+}

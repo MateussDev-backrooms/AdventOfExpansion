@@ -1,0 +1,57 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "z": {},
+                "states": {
+                  "state": {
+                    "Name": "minecraft:blackstone"
+                  },
+                  "type": "minecraft:simple_state_provider"
+                },
+                "count": {
+                  "min": 4,
+                  "max": 12
+                },
+                "x": {
+                  "min": 1,
+                  "max": 6
+                },
+                "y": {
+                  "min": 4,
+                  "max": 18
+                }
+              },
+              "type": "aoa3:stalagmite"
+            },
+            "decorator": {
+              "config": {
+                "maximum": 120,
+                "on_surface": true,
+                "bottom_offset": 10
+              },
+              "type": "aoa3:underground_surface"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "chance": 10
+      },
+      "type": "minecraft:chance"
+    }
+  },
+  "type": "minecraft:decorated"
+}

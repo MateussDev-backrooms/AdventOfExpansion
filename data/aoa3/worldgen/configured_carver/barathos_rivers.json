@@ -1,0 +1,16 @@
+{
+  "config": {
+    "deep_filler_block": {
+      "Name": "aoa3:toxic_block"
+    },
+    "carvable_fluids": [],
+    "deep_floor_height": 44,
+    "min_height": 8,
+    "carvable_blocks": [
+      "aoa3:baron_ground",
+      "aoa3:baron_stone",
+      "aoa3:hellstone"
+    ]
+  },
+  "type": "aoa3:configurable_carver"
+}
