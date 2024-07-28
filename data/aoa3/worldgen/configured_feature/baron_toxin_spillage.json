@@ -15,7 +15,7 @@
         },
         "decorator": {
           "config": {
-            "chance": 2
+            "chance": 4
           },
           "type": "minecraft:water_lake"
         }

@@ -1,0 +1,82 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "can_replace": false,
+                "project": true,
+                "need_water": false,
+                "xspread": 10,
+                "yspread": 0,
+                "zspread": 10,
+                "whitelist": [],
+                "blacklist": [],
+                "tries": 8,
+                "state_provider": {
+                  "entries": [
+                    {
+                      "weight": 2,
+                      "data": {
+                        "Name": "minecraft:dead_tube_coral_fan",
+                        "Properties": {
+                          "waterlogged": "false"
+                        }
+                      }
+                    },
+                    {
+                      "weight": 2,
+                      "data": {
+                        "Name": "minecraft:dead_brain_coral_fan",
+                        "Properties": {
+                          "waterlogged": "false"
+                        }
+                      }
+                    },
+                    {
+                      "weight": 2,
+                      "data": {
+                        "Name": "minecraft:dead_fire_coral_fan",
+                        "Properties": {
+                          "waterlogged": "false"
+                        }
+                      }
+                    }
+                    
+                  ],
+                  "type": "minecraft:weighted_state_provider"
+                },
+                "block_placer": {
+                  "type": "minecraft:simple_block_placer"
+                }
+              },
+              "type": "minecraft:random_patch"
+            },
+            "decorator": {
+              "config": {
+                "heightmap": "WORLD_SURFACE"
+              },
+              "type": "minecraft:heightmap_spread_double"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "min": 2,
+        "max": 4
+      },
+      "type": "aoa3:n_times"
+    }
+  },
+  "type": "minecraft:decorated"
+}

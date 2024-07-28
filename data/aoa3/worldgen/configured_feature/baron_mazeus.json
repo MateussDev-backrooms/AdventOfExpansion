@@ -13,9 +13,11 @@
                       "processors": []
                     },
                     "templates": [
-                      "aoa3:barathos/decorations/baron_spike_1",
-                      "aoa3:barathos/decorations/baron_spike_2",
-                      "aoa3:barathos/decorations/baron_spike_3"
+                      "aoa3:barathos/decorations/baron_mazeus_1",
+                      "aoa3:barathos/decorations/baron_mazeus_2",
+                      "aoa3:barathos/decorations/baron_mazeus_3",
+                      "aoa3:barathos/decorations/baron_mazeus_4",
+                      "aoa3:barathos/decorations/baron_mazeus_5"
                     ]
                   },
                   "type": "aoa3:structure_piece"
@@ -38,7 +40,7 @@
         },
         "decorator": {
           "config": {
-            "chance": 2
+            "chance": 1
           },
           "type": "minecraft:chance"
         }
@@ -48,7 +50,7 @@
     "decorator": {
       "config": {
         "min": 1,
-        "max": 2
+        "max": 3
       },
       "type": "aoa3:n_times"
     }

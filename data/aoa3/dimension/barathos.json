@@ -4,6 +4,7 @@
     "type": "minecraft:noise",
     "seed": 0,
     "settings": {
+      "name": "minecraft:overworld",
       "bedrock_roof_position": -20,
       "bedrock_floor_position": -20,
       "sea_level": 0,
@@ -13,6 +14,33 @@
       },
       "default_fluid": {
         "Name": "minecraft:air"
+      },
+      "noise": {
+        "height": 256,
+        "density_factor": 1.5,
+        "density_offset": -0.8,
+        "size_horizontal": 1,
+        "size_vertical": 2,
+        "simplex_surface_noise": true,
+        "random_density_offset": false,
+        "island_noise_override": false,
+        "amplified": false,
+        "sampling": {
+          "xz_scale": 1,
+          "y_scale": 1.5,
+          "xz_factor": 1000,
+          "y_factor": 750
+        },
+        "bottom_slide": {
+          "target": -30,
+          "size": 0,
+          "offset": 0
+        },
+        "top_slide": {
+          "target": -10,
+          "size": 0,
+          "offset": 0
+        }
       },
       "structures": {
         "structures": {
@@ -37,40 +65,13 @@
             "salt": 1885524592
           }
         }
-      },
-      "noise": {
-        "top_slide": {
-          "target": -10,
-          "size": 0,
-          "offset": 0
-        },
-        "bottom_slide": {
-          "target": -30,
-          "size": 0,
-          "offset": 0
-        },
-        "sampling": {
-          "xz_scale": 0.25,
-          "y_scale": 1.5,
-          "xz_factor": 1000.0,
-          "y_factor": 750.0
-        },
-        "size_vertical": 1,
-        "size_horizontal": 1,
-        "height": 256,
-        "density_factor": 1.5,
-        "density_offset": -0.8,
-        "random_density_offset": false,
-        "simplex_surface_noise": true,
-        "island_noise_override": false,
-        "amplified": false
       }
     },
     "biome_source": {
       "type": "minecraft:multi_noise",
       "seed": 0,
       "altitude_noise": {
-        "firstOctave": -4,
+        "firstOctave": -7,
         "amplitudes": [
           -8
         ]
@@ -82,25 +83,25 @@
         ]
       },
       "humidity_noise": {
-        "firstOctave": -4,
+        "firstOctave": -5,
         "amplitudes": [
           5
         ]
       },
       "weirdness_noise": {
-        "firstOctave": -3,
+        "firstOctave": -10,
         "amplitudes": [
-          0
+          1
         ]
       },
       "biomes": [
         {
-          "biome": "aoa3:barren_grounds",
+          "biome": "aoa3:baron_pillars",
           "parameters": {
             "altitude": 2,
             "temperature": 0,
             "humidity": 0,
-            "weirdness": 1,
+            "weirdness": 1.5,
             "offset": 0
           }
         },
@@ -110,8 +111,8 @@
             "altitude": 1,
             "temperature": 0,
             "humidity": 0,
-            "weirdness": 0.5,
-            "offset": 0.1
+            "weirdness": 1,
+            "offset": 0
           }
         },
         {
@@ -119,9 +120,39 @@
           "parameters": {
             "altitude": 0,
             "temperature": 0,
-            "humidity": 1,
+            "humidity": 0,
             "weirdness": 0,
             "offset": 0
+          }
+        },
+        {
+          "biome": "aoa3:barren_grounds",
+          "parameters": {
+            "altitude": -0.5,
+            "temperature": 0,
+            "humidity": 0,
+            "weirdness": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "aoa3:baron_mazeus",
+          "parameters": {
+            "altitude": -1,
+            "temperature": 0,
+            "humidity": 0,
+            "weirdness": 0.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "aoa3:baron_spikelands",
+          "parameters": {
+            "altitude": -2,
+            "temperature": 0,
+            "humidity": 0,
+            "weirdness": 2,
+            "offset": 0.1
           }
         }
       ]

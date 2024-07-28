@@ -28,7 +28,7 @@
     [],
     [],
     [
-      "aoa3:creep_grass_variation"
+      "aoa3:creeponia_texturing_stem"
     ],
     [
       "aoa3:ore_ornamyte",
@@ -41,6 +41,7 @@
     ],
     [
       "aoa3:creeponia_texturing",
+      "aoa3:creepy_rocks",
       "aoa3:creeponia_plants",
       "aoa3:creeponia_fallen_trees"
     ],

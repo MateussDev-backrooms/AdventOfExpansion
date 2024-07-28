@@ -13,8 +13,6 @@
                       "processors": []
                     },
                     "templates": [
-                      "aoa3:barathos/decorations/baron_spike_1",
-                      "aoa3:barathos/decorations/baron_spike_2",
                       "aoa3:barathos/decorations/baron_spike_3"
                     ]
                   },
@@ -38,7 +36,7 @@
         },
         "decorator": {
           "config": {
-            "chance": 2
+            "chance": 16
           },
           "type": "minecraft:chance"
         }

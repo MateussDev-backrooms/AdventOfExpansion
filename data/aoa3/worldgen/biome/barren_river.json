@@ -1,7 +1,7 @@
 {
   "precipitation": "none",
   "category": "mesa",
-  "depth": -0.66,
+  "depth": -1.2,
   "scale": 0.1,
   "temperature": 2.0,
   "temperature_modifier": "none",
@@ -37,8 +37,13 @@
     ],
     [],
     [
+      "aoa3:barathos_texturing_basalt",
+      "aoa3:barathos_texturing_hellstone",
+      "aoa3:barathos_texturing_magma_bar"
     ],
-    [],
+    [
+      "aoa3:baron_fossils"
+    ],
     [],
     [],
     [
@@ -51,10 +56,6 @@
     []
   ],
   "starts": [
-    "aoa3:baron_castle",
-    "aoa3:baroness_arena",
-    "aoa3:hive_nest",
-    "aoa3:baron_house"
   ],
   "spawners": {
     "monster": [

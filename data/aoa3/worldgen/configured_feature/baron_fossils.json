@@ -13,9 +13,8 @@
                       "processors": []
                     },
                     "templates": [
-                      "aoa3:barathos/decorations/baron_spike_1",
-                      "aoa3:barathos/decorations/baron_spike_2",
-                      "aoa3:barathos/decorations/baron_spike_3"
+                      "aoa3:deeplands/decorations/fossilised_ribs",
+                      "aoa3:deeplands/decorations/bone_circle"
                     ]
                   },
                   "type": "aoa3:structure_piece"
@@ -38,7 +37,7 @@
         },
         "decorator": {
           "config": {
-            "chance": 2
+            "chance": 16
           },
           "type": "minecraft:chance"
         }

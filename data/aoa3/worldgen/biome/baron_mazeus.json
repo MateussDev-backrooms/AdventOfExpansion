@@ -1,14 +1,14 @@
 {
   "precipitation": "none",
   "category": "mesa",
-  "depth": 0.0,
-  "scale": 0.1,
+  "depth": 1.5,
+  "scale": 0.3,
   "temperature": 2.0,
   "temperature_modifier": "none",
   "downfall": 0.0,
   "effects": {
-    "fog_color": 16773825,
-    "sky_color": 12356653,
+    "fog_color": 5462120,
+    "sky_color": 7825472,
     "water_color": 16773825,
     "water_fog_color": 16773825,
     "grass_color_modifier": "none",
@@ -21,7 +21,7 @@
     "particle": {
       "probability": 0.1,
       "options": {
-        "type": "minecraft:white_ash"
+        "type": "minecraft:enchant"
       }
     }
   },
@@ -38,17 +38,16 @@
     ],
     [],
     [
-      "aoa3:barathos_texturing_magma",
+      "aoa3:baron_mazeus"
+    ],
+    [
+      "aoa3:barathos_texturing_basalt",
       "aoa3:barathos_texturing_baron_stone",
       "aoa3:barathos_texturing_red_sand",
       "aoa3:barathos_texturing_terracotta",
       "aoa3:barathos_texturing_granite",
-      "aoa3:baron_dead_plants"
-
-    ],
-    [
       "aoa3:baron_dead_plants",
-      "aoa3:baron_spikes_sparse"
+      "aoa3:baron_minirock"
     ],
     [],
     [],
@@ -62,8 +61,7 @@
     []
   ],
   "starts": [
-    "aoa3:baron_castle",
-    "aoa3:baron_house"
+    
   ],
   "spawners": {
     "monster": [

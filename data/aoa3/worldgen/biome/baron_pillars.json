@@ -1,8 +1,8 @@
 {
   "precipitation": "none",
   "category": "mesa",
-  "depth": 0.0,
-  "scale": 0.1,
+  "depth": 1.2,
+  "scale": 0.2,
   "temperature": 2.0,
   "temperature_modifier": "none",
   "downfall": 0.0,
@@ -38,17 +38,15 @@
     ],
     [],
     [
-      "aoa3:barathos_texturing_magma",
-      "aoa3:barathos_texturing_baron_stone",
-      "aoa3:barathos_texturing_red_sand",
-      "aoa3:barathos_texturing_terracotta",
-      "aoa3:barathos_texturing_granite",
-      "aoa3:baron_dead_plants"
-
+      "aoa3:barathos_rocks",
+      "aoa3:baron_pillars"
     ],
     [
-      "aoa3:baron_dead_plants",
-      "aoa3:baron_spikes_sparse"
+      "aoa3:barathos_texturing_baron_stone",
+      "aoa3:barathos_texturing_hiveblock",
+      "aoa3:barathos_texturing_red_sand",
+      "aoa3:barathos_texturing_terracotta",
+      "aoa3:baron_toxin_spillage"
     ],
     [],
     [],
@@ -62,7 +60,7 @@
     []
   ],
   "starts": [
-    "aoa3:baron_castle",
+    "aoa3:hive_nest",
     "aoa3:baron_house"
   ],
   "spawners": {
