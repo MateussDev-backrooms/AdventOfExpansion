@@ -15,7 +15,7 @@ My plan is to overhaul every single dimension to include:
 - Refined but not majorly changed gameplay
 
 # How do I play this?
-It's simple! You just press the big green download button at the top and download this as a .zip file. Then drag it into a world's datapack folder, or load it on world creation (recommended because the transition from old chunks to new chunks is rough)
+It's simple! You just press the big green Code <> button at the top and download this as a .zip file. Then drag it into a world's datapack folder, or load it on world creation (recommended because the transition from old chunks to new chunks is rough)
 In theory this datapack should work on any existing world too, you just have to venture far into new chunks to see the new generation
 
 # What's in the datapack currently
