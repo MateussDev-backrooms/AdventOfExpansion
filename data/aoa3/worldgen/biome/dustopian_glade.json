@@ -7,7 +7,7 @@
   "temperature_modifier": "none",
   "downfall": 0.35,
   "effects": {
-    "fog_color": 2305073,
+    "fog_color": 4795693,
     "foliage_color": 3289650,
     "grass_color": 0,
     "sky_color": 0,
@@ -21,7 +21,7 @@
       "replace_current_music": false
     },
     "particle": {
-      "probability": 0.1,
+      "probability": 0.01,
       "options": {
         "type": "ash"
       }
@@ -37,14 +37,13 @@
     [],
     [],
     [
-      "aoa3:dawn_cages"
+      "aoa3:dustopian_lights_long"
     ],
     [],
     [],
     [],
     [
       "aoa3:dawn_grass",
-      "aoa3:dawnwood_fir_trees",
       "aoa3:dustopian_flowers"
     ],
     []

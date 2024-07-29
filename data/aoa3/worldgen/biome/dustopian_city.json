@@ -2,15 +2,15 @@
   "precipitation": "none",
   "category": "none",
   "depth": 0.0,
-  "scale": 0.05,
+  "scale": 0.001,
   "temperature": 0.4,
   "temperature_modifier": "none",
   "downfall": 0.35,
   "effects": {
-    "fog_color": 2305073,
+    "fog_color": 4462616,
     "foliage_color": 3289650,
     "grass_color": 0,
-    "sky_color": 0,
+    "sky_color": 1114112,
     "water_color": 0,
     "water_fog_color": 0,
     "grass_color_modifier": "none",
@@ -27,87 +27,83 @@
       }
     }
   },
-  "surface_builder": "aoa3:dustopia",
+  "surface_builder": "aoa3:dustopia_city",
   "carvers": {},
   "features": [
     [
       "aoa3:dimensional_fabric_floor"
     ],
-    [],
+    [
+      "aoa3:dustopia_texturing_concrete_powder",
+      "aoa3:dustopia_texturing_concrete"
+    ],
     [],
     [],
     [
-      "aoa3:dawn_cages"
+      "aoa3:dustopian_city",
+      "aoa3:dustopian_lights",
+      "aoa3:dustopian_cars"
+
     ],
     [],
     [],
     [],
     [
       "aoa3:dawn_grass",
-      "aoa3:dawnwood_fir_trees",
       "aoa3:dustopian_flowers"
     ],
     []
   ],
   "starts": [
-    "aoa3:crusilisk_cage",
-    "aoa3:dustopian_village",
-    "aoa3:arkzyne_outpost",
-    "aoa3:merkyre_tower",
-    "aoa3:lotto_cage"
+    "aoa3:merkyre_tower"
   ],
   "spawners": {
     "monster": [
       {
         "type": "aoa3:basilisk",
         "weight": 20,
-        "minCount": 0,
-        "maxCount": 1
+        "minCount": 1,
+        "maxCount": 2
       },
       {
         "type": "aoa3:lurker",
         "weight": 20,
-        "minCount": 0,
-        "maxCount": 1
+        "minCount": 1,
+        "maxCount": 2
       },
       {
         "type": "aoa3:dusteiva",
         "weight": 20,
-        "minCount": 0,
-        "maxCount": 1
+        "minCount": 1,
+        "maxCount": 2
       },
       {
         "type": "aoa3:devourer",
         "weight": 20,
-        "minCount": 0,
-        "maxCount": 1
+        "minCount": 1,
+        "maxCount": 2
       },
       {
         "type": "aoa3:stalker",
         "weight": 20,
-        "minCount": 0,
-        "maxCount": 1
+        "minCount": 1,
+        "maxCount": 2
       },
       {
         "type": "aoa3:duston",
         "weight": 20,
-        "minCount": 0,
-        "maxCount": 1
+        "minCount": 1,
+        "maxCount": 2
       },
       {
         "type": "aoa3:lost_soul",
         "weight": 20,
-        "minCount": 0,
-        "maxCount": 1
-      }
-    ],
-    "creature": [
-      {
-        "type": "aoa3:urka",
-        "weight": 20,
         "minCount": 1,
         "maxCount": 2
       }
+    ],
+    "creature": [
+      
     ],
     "ambient": [],
     "water_creature": [],

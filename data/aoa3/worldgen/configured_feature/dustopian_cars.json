@@ -1,0 +1,57 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "feature": {
+                  "config": {
+                    "spawn_entities": false,
+                    "processors": {
+                      "processors": []
+                    },
+                    "templates": [
+                      "aoa3:dustopia/decorations/dustopian_wrecked_car_1",
+                      "aoa3:dustopia/decorations/dustopian_wrecked_car_2",
+                      "aoa3:dustopia/decorations/dustopian_wrecked_car_3"
+                    ]
+                  },
+                  "type": "aoa3:structure_piece"
+                },
+                "decorator": {
+                  "config": {
+                    "heightmap": ""
+                  },
+                  "type": "minecraft:heightmap_world_surface"
+                }
+              },
+              "type": "minecraft:decorated"
+            },
+            "decorator": {
+              "config": {},
+              "type": "minecraft:square"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {
+            "chance": 5
+          },
+          "type": "minecraft:chance"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "min": 1,
+        "max": 2
+      },
+      "type": "aoa3:n_times"
+    }
+  },
+  "type": "minecraft:decorated"
+}
