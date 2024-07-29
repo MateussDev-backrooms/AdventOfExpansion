@@ -2,7 +2,7 @@
     "type": "minecraft:entity",
     "pools": [
       {
-        "rolls": 2,
+        "rolls": 1,
         "entries": [
           {
             "type": "minecraft:empty",
@@ -68,13 +68,13 @@
           {
             "type": "minecraft:item",
             "name": "aoa3:darkly_powder",
-            "weight": 300,
+            "weight": 100,
             "functions": [
               {
                 "function": "minecraft:set_count",
                 "count": {
-                  "min": 2,
-                  "max": 5
+                  "min": 0,
+                  "max": 2
                 }
               }
             ]
