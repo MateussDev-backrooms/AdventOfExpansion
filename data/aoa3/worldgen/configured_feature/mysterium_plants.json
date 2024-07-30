@@ -46,6 +46,15 @@
                       "data": {
                         "Name": "aoa3:mystic_bush"
                       }
+                    },
+                    {
+                      "weight": 5,
+                      "data": {
+                        "Name": "minecraft:twisting_vines",
+                        "Properties": {
+                          "age": "20"
+                        }
+                      }
                     }
                   ],
                   "type": "minecraft:weighted_state_provider"
@@ -57,8 +66,11 @@
               "type": "minecraft:random_patch"
             },
             "decorator": {
-              "config": {},
-              "type": "minecraft:heightmap_world_surface"
+              "config": {
+                "min": 32,
+                "max": 256
+              },
+              "type": "aoa3:up_to_surface"
             }
           },
           "type": "minecraft:decorated"
@@ -72,8 +84,8 @@
     },
     "decorator": {
       "config": {
-        "min": 5,
-        "max": 5
+        "min": 10,
+        "max": 64
       },
       "type": "aoa3:n_times"
     }

@@ -60,15 +60,15 @@
           "offset": 0
         },
         "sampling": {
-          "xz_scale": 1.0,
-          "y_scale": 1.0,
-          "xz_factor": 80.0,
-          "y_factor": 160.0
+          "xz_scale": 0.33,
+          "y_scale": 0.33,
+          "xz_factor": 500.0,
+          "y_factor": 600.0
         },
         "size_vertical": 2,
         "size_horizontal": 1,
         "height": 256,
-        "density_factor": 5.0,
+        "density_factor": 0.8,
         "density_offset": -0.2,
         "random_density_offset": true,
         "simplex_surface_noise": true,

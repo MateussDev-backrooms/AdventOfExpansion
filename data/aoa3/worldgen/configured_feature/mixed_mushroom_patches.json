@@ -9,9 +9,9 @@
                 "can_replace": false,
                 "project": false,
                 "need_water": false,
-                "xspread": 3,
+                "xspread": 5,
                 "yspread": 3,
-                "zspread": 3,
+                "zspread": 5,
                 "whitelist": [],
                 "blacklist": [],
                 "tries": 6,
@@ -58,6 +58,15 @@
                       "data": {
                         "Name": "aoa3:yellow_glowshroom"
                       }
+                    },
+                    {
+                      "weight": 1,
+                      "data": {
+                        "Name": "minecraft:twisting_vines",
+                        "Properties": {
+                          "age": "20"
+                        }
+                      }
                     }
                   ],
                   "type": "minecraft:weighted_state_provider"
@@ -71,7 +80,7 @@
             "decorator": {
               "config": {
                 "min": 15,
-                "max": 110
+                "max": 220
               },
               "type": "aoa3:up_to_surface"
             }
@@ -87,6 +96,7 @@
     },
     "decorator": {
       "config": {
+        "min": 10,
         "max": 30
       },
       "type": "aoa3:n_times"

@@ -13,11 +13,11 @@
       "Name": "aoa3:fungal_grass"
     },
     "max_height": 120,
-    "radius_modifier": 4.0,
+    "radius_modifier": 9.0,
     "carvable_fluids": [],
     "deep_floor_height": 10,
     "min_height": 5,
-    "carve_chance": 0.7,
+    "carve_chance": 0.75,
     "carvable_blocks": [
       "aoa3:fungal_grass",
       "aoa3:fungal_dirt",

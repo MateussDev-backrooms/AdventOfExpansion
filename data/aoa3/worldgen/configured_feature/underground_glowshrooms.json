@@ -13,11 +13,8 @@
                       "processors": []
                     },
                     "templates": [
-                      "aoa3:mysterium/decorations/mysterium_greatshroom_1",
-                      "aoa3:mysterium/decorations/mysterium_greatshroom_2",
-                      "aoa3:mysterium/decorations/mysterium_greatshroom_3",
-                      "aoa3:mysterium/decorations/mysterium_greatshroom_4",
-                      "aoa3:mysterium/decorations/mysterium_greatshroom_5"
+                      "aoa3:mysterium/decorations/mysterium_glowshroom_big",
+                      "aoa3:mysterium/decorations/mysterium_glowshroom_small"
                     ]
                   },
                   "type": "aoa3:structure_piece"
@@ -26,7 +23,7 @@
                   "config": {
                     "maximum": 80,
                     "on_surface": true,
-                    "bottom_offset": 2
+                    "bottom_offset": 5
                   },
                   "type": "aoa3:underground_surface"
                 }
@@ -42,7 +39,7 @@
         },
         "decorator": {
           "config": {
-            "chance": 3
+            "chance": 5
           },
           "type": "minecraft:chance"
         }

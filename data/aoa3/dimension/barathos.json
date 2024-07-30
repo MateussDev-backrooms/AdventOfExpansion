@@ -71,9 +71,9 @@
       "type": "minecraft:multi_noise",
       "seed": 0,
       "altitude_noise": {
-        "firstOctave": -7,
+        "firstOctave": -8,
         "amplitudes": [
-          -8
+          -11
         ]
       },
       "temperature_noise": {
@@ -101,14 +101,14 @@
             "altitude": 2,
             "temperature": 0,
             "humidity": 0,
-            "weirdness": 1.5,
+            "weirdness": 2,
             "offset": 0
           }
         },
         {
           "biome": "aoa3:barren_grounds",
           "parameters": {
-            "altitude": 1,
+            "altitude": 1.4,
             "temperature": 0,
             "humidity": 0,
             "weirdness": 1,
@@ -121,14 +121,14 @@
             "altitude": 0,
             "temperature": 0,
             "humidity": 0,
-            "weirdness": 0,
+            "weirdness": 0.8,
             "offset": 0
           }
         },
         {
           "biome": "aoa3:barren_grounds",
           "parameters": {
-            "altitude": -0.5,
+            "altitude": -1.3,
             "temperature": 0,
             "humidity": 0,
             "weirdness": 0,
@@ -138,10 +138,10 @@
         {
           "biome": "aoa3:baron_mazeus",
           "parameters": {
-            "altitude": -1,
+            "altitude": -1.75,
             "temperature": 0,
             "humidity": 0,
-            "weirdness": 0.5,
+            "weirdness": 1,
             "offset": 0
           }
         },
@@ -151,7 +151,7 @@
             "altitude": -2,
             "temperature": 0,
             "humidity": 0,
-            "weirdness": 2,
+            "weirdness": 1.5,
             "offset": 0.1
           }
         }

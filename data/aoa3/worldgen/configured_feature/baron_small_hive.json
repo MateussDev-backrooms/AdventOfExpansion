@@ -13,22 +13,16 @@
                       "processors": []
                     },
                     "templates": [
-                      "aoa3:mysterium/decorations/mysterium_greatshroom_1",
-                      "aoa3:mysterium/decorations/mysterium_greatshroom_2",
-                      "aoa3:mysterium/decorations/mysterium_greatshroom_3",
-                      "aoa3:mysterium/decorations/mysterium_greatshroom_4",
-                      "aoa3:mysterium/decorations/mysterium_greatshroom_5"
+                      "aoa3:barathos/decorations/baron_small_hive"
                     ]
                   },
                   "type": "aoa3:structure_piece"
                 },
                 "decorator": {
                   "config": {
-                    "maximum": 80,
-                    "on_surface": true,
-                    "bottom_offset": 2
+                    "heightmap": ""
                   },
-                  "type": "aoa3:underground_surface"
+                  "type": "minecraft:heightmap_world_surface"
                 }
               },
               "type": "minecraft:decorated"
@@ -42,7 +36,7 @@
         },
         "decorator": {
           "config": {
-            "chance": 3
+            "chance": 24
           },
           "type": "minecraft:chance"
         }
@@ -52,7 +46,7 @@
     "decorator": {
       "config": {
         "min": 1,
-        "max": 2
+        "max": 1
       },
       "type": "aoa3:n_times"
     }

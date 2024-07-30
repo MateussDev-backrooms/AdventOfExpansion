@@ -2,16 +2,22 @@
   "precipitation": "none",
   "category": "none",
   "depth": 0.125,
-  "scale": 0.1,
+  "scale": 0.02,
   "temperature": 0.4,
   "temperature_modifier": "none",
   "downfall": 0.85,
   "effects": {
-    "fog_color": 0,
-    "sky_color": 9437439,
-    "water_color": 5780366,
+    "fog_color": 13474004,
+    "sky_color": 10251509,
+    "water_color": 3680875,
     "water_fog_color": 5780366,
-    "grass_color_modifier": "none"
+    "grass_color_modifier": "none",
+    "particle": {
+      "probability": 0.01,
+      "options": {
+        "type": "enchanted_hit"
+      }
+    }
   },
   "surface_builder": "aoa3:mysterium",
   "carvers": {
@@ -27,15 +33,20 @@
     [],
     [],
     [],
-    [],
+    [
+      "aoa3:mysterium_texturing_warped_wart",
+      "glowstone"
+    ],
     [
       "aoa3:ore_mystite"
     ],
-    [],
+    [
+      "aoa3:underground_big_mushrooms",
+      "aoa3:underground_glowshrooms"
+    ],
     [
       "aoa3:mixed_mushroom_patches",
       "aoa3:tiny_shrooms",
-      "aoa3:underground_big_mushrooms",
       "aoa3:mini_cave_shrooms",
       "aoa3:mysterium_plants"
     ],
