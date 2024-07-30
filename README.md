@@ -33,7 +33,7 @@ This datapack is **UNFINISHED**, only containing improvements for these dimensio
   - ![2024-07-29_22 05 15](https://github.com/user-attachments/assets/4b8d688e-6f9a-40b7-95df-a706908ead06)
   - ![2024-07-29_14 15 43](https://github.com/user-attachments/assets/d8667ece-6bc8-4ba3-8b5d-ab37ff3a0e54)
  
-- Mysterium [ 90% complete ] [Recommended with some form of shader. Complimentary shaders are best]
+- Mysterium [ 50% complete ] [Recommended with some form of shader. Complimentary shaders are best] [A new biome will come since I find Mysterium to be kinda repetidive]
   - ![2024-07-30_15 37 07](https://github.com/user-attachments/assets/a7ab5361-4569-4630-be2a-08ee07be3b3e)
   - ![2024-07-30_15 34 18](https://github.com/user-attachments/assets/19acd1f5-4c7d-4d6a-a0dc-85daaf4f0b2a)
   - ![2024-07-30_15 58 31](https://github.com/user-attachments/assets/a8f52f83-7a7b-4e03-946d-bcc3582f3706)
