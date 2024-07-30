@@ -21,16 +21,24 @@ In theory this datapack should work on any existing world too, you just have to 
 
 # What's in the datapack currently
 This datapack is **UNFINISHED**, only containing improvements for these dimensions:
-- Creeponia [ 90% complete ] (Issues - floating trees, unrefined Creep HQ)
+- Creeponia [ 90% complete ]
   - ![2024-07-28_16 01 15](https://github.com/user-attachments/assets/ec210f44-344e-48f7-bc6c-8bf83878c716)![2024-07-28_14 22 29](https://github.com/user-attachments/assets/3c5c4120-445a-4977-9416-4ce9f71d4b11)
 
-- Barathos [ 95% complete ] (Issues - rarely floating pillars in Baron Pillars biome, Mazeus traversability, potential large distances between bosses)
-  - ![2024-07-28_21 18 54](https://github.com/user-attachments/assets/9f96d590-7126-45cb-9a9e-4ddd2fcd2d00)![2024-07-28_21 13 58](https://github.com/user-attachments/assets/2ea746f1-65ef-49a1-9816-b5fe27feb0de)
+- Barathos [ 95% complete ]
+  - ![2024-07-30_17 54 35](https://github.com/user-attachments/assets/b987d0ea-6890-4ba7-a543-0817caa0cb79)
+  - ![2024-07-28_21 13 58](https://github.com/user-attachments/assets/2ea746f1-65ef-49a1-9816-b5fe27feb0de)
 
-- Dustopia [ 90% complete ] (Issues - rare boss altar, buildings spawning on buildings) [Complimentary makes this dimension way too bright]
+- Dustopia [ 90% complete ] [Complimentary shaders makes this dimension way too bright]
   - ![2024-07-29_21 50 01](https://github.com/user-attachments/assets/29aa6bf5-ee3c-4740-8bf5-783943e41e2f)
   - ![2024-07-29_22 05 15](https://github.com/user-attachments/assets/4b8d688e-6f9a-40b7-95df-a706908ead06)
   - ![2024-07-29_14 15 43](https://github.com/user-attachments/assets/d8667ece-6bc8-4ba3-8b5d-ab37ff3a0e54)
+ 
+- Mysterium [ 90% complete ] [Recommended with some form of shader. Complimentary shaders are best]
+  - ![2024-07-30_15 37 07](https://github.com/user-attachments/assets/a7ab5361-4569-4630-be2a-08ee07be3b3e)
+  - ![2024-07-30_15 34 18](https://github.com/user-attachments/assets/19acd1f5-4c7d-4d6a-a0dc-85daaf4f0b2a)
+  - ![2024-07-30_15 58 31](https://github.com/user-attachments/assets/a8f52f83-7a7b-4e03-946d-bcc3582f3706)
+
+
 
 
 - Iromine [ 10% complete ] (Has unique cubic generation, nothing more)
