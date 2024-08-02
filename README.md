@@ -21,22 +21,17 @@ In theory this datapack should work on any existing world too, you just have to 
 
 # What's in the datapack currently
 This datapack is **UNFINISHED**, only containing improvements for these dimensions:
-- Creeponia [ 90% complete ] (Issues - floating trees, unrefined Creep HQ)
-  - ![2024-07-28_16 01 15](https://github.com/user-attachments/assets/ec210f44-344e-48f7-bc6c-8bf83878c716)![2024-07-28_14 22 29](https://github.com/user-attachments/assets/3c5c4120-445a-4977-9416-4ce9f71d4b11)
+* Creeponia [ 95% complete ]
+* Barathos [ 92% complete ]
+* Dustopia [ 95% complete ]
+* Mysterium [ 50% complete ]
+* Gardencia [ 50% complete ]
+* Iromine [ 10% complete ]
 
-- Barathos [ 95% complete ] (Issues - rarely floating pillars in Baron Pillars biome, Mazeus traversability, potential large distances between bosses)
-  - ![2024-07-28_21 18 54](https://github.com/user-attachments/assets/9f96d590-7126-45cb-9a9e-4ddd2fcd2d00)![2024-07-28_21 13 58](https://github.com/user-attachments/assets/2ea746f1-65ef-49a1-9816-b5fe27feb0de)
-
-- Dustopia [ 90% complete ] (Issues - rare boss altar, buildings spawning on buildings) [Complimentary makes this dimension way too bright]
-  - ![2024-07-29_21 50 01](https://github.com/user-attachments/assets/29aa6bf5-ee3c-4740-8bf5-783943e41e2f)
-  - ![2024-07-29_22 05 15](https://github.com/user-attachments/assets/4b8d688e-6f9a-40b7-95df-a706908ead06)
-  - ![2024-07-29_14 15 43](https://github.com/user-attachments/assets/d8667ece-6bc8-4ba3-8b5d-ab37ff3a0e54)
-
-
-- Iromine [ 10% complete ] (Has unique cubic generation, nothing more)
-  - ![2024-07-22_15 21 28](https://github.com/user-attachments/assets/5858ccc6-02b5-4ed3-acae-3f932aa4a87f)
+For detailed descriptions of what changed in each dimension check out the [wiki](https://github.com/MateussDev-backrooms/AdventOfExpansion/wiki)! 
 
 # Requirements
 - Advent of Ascention v3.6.11
 - (optional) Embeddium/Rubidium for better performance
+
 **NOTE: Due to the generation changes the dimensions will load much slower/have lag on older/lower spec devices. Not as bad as Amplified mode, but be wary of lag**
