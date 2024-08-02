@@ -15,7 +15,7 @@
         },
         "decorator": {
           "config": {
-            "chance": 4
+            "chance": 1
           },
           "type": "minecraft:water_lake"
         }
@@ -25,7 +25,7 @@
     "decorator": {
       "config": {
         "min": 2,
-        "max": 2
+        "max": 8
       },
       "type": "aoa3:n_times"
     }
