@@ -106,7 +106,7 @@
       },
       "biomes": [
         {
-          "biome": "aoa3:floral_mountains",
+          "biome": "aoa3:floral_plains",
           "parameters": {
             "altitude": 1,
             "temperature": -2,
