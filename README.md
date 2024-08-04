@@ -26,6 +26,7 @@ This data pack is **UNFINISHED**, only containing improvements for these dimensi
 * Dustopia [ 95% complete ]
 * Mysterium [ 50% complete ]
 * Gardencia [ 50% complete ]
+* Celeve [ 40% complete ]
 * Iromine [ 10% complete ]
 
 For detailed descriptions of what changed in each dimension check out the [wiki](https://github.com/MateussDev-backrooms/AdventOfExpansion/wiki)! 
