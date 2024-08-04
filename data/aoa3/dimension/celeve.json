@@ -37,16 +37,16 @@
         "bottom_slide": {
           "target": -30,
           "size": 7,
-          "offset": 1
+          "offset": -1
         },
         "sampling": {
           "xz_scale": 2.0,
           "y_scale": 1.0,
           "xz_factor": 80.0,
-          "y_factor": 160.0
+          "y_factor": 500.0
         },
         "size_vertical": 1,
-        "size_horizontal": 2,
+        "size_horizontal": 1,
         "height": 128,
         "density_factor": 0.0,
         "density_offset": 0.0,

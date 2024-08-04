@@ -1,0 +1,75 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "feature": {
+                  "config": {
+                    "spawn_entities": false,
+                    "processors": {
+                      "processors": []
+                    },
+                    "templates": [
+                      "aoa3:celeve/decorations/celeve_celevus_small_blue_1",
+                      "aoa3:celeve/decorations/celeve_celevus_small_blue_2",
+                      "aoa3:celeve/decorations/celeve_celevus_small_blue_3",
+                      "aoa3:celeve/decorations/celeve_celevus_small_blue_4",
+                      "aoa3:celeve/decorations/celeve_celevus_small_red_1",
+                      "aoa3:celeve/decorations/celeve_celevus_small_red_2",
+                      "aoa3:celeve/decorations/celeve_celevus_small_red_3",
+                      "aoa3:celeve/decorations/celeve_celevus_small_red_4",
+                      "aoa3:celeve/decorations/celeve_celevus_small_yellow_1",
+                      "aoa3:celeve/decorations/celeve_celevus_small_yellow_2",
+                      "aoa3:celeve/decorations/celeve_celevus_small_yellow_3",
+                      "aoa3:celeve/decorations/celeve_celevus_small_yellow_4",
+                      "aoa3:celeve/decorations/celeve_celevus_small_purple_1",
+                      "aoa3:celeve/decorations/celeve_celevus_small_purple_2",
+                      "aoa3:celeve/decorations/celeve_celevus_small_purple_3",
+                      "aoa3:celeve/decorations/celeve_celevus_small_purple_4",
+                      "aoa3:celeve/decorations/celeve_celevus_small_green_1",
+                      "aoa3:celeve/decorations/celeve_celevus_small_green_2",
+                      "aoa3:celeve/decorations/celeve_celevus_small_green_3",
+                      "aoa3:celeve/decorations/celeve_celevus_small_green_4"
+                      
+                    ]
+                  },
+                  "type": "aoa3:structure_piece"
+                },
+                "decorator": {
+                  "config": {
+                    "heightmap": ""
+                  },
+                  "type": "minecraft:heightmap_world_surface"
+                }
+              },
+              "type": "minecraft:decorated"
+            },
+            "decorator": {
+              "config": {},
+              "type": "minecraft:square"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {
+            "chance": 1
+          },
+          "type": "minecraft:chance"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "min": 1,
+        "max": 2
+      },
+      "type": "aoa3:n_times"
+    }
+  },
+  "type": "minecraft:decorated"
+}

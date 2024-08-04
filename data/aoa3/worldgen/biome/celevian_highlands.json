@@ -1,14 +1,14 @@
 {
   "precipitation": "none",
   "category": "none",
-  "depth": 0.1,
-  "scale": 0.1,
+  "depth": 0.0,
+  "scale": 0.8,
   "temperature": 0.35,
   "temperature_modifier": "none",
   "downfall": 0.25,
   "effects": {
-    "fog_color": 0,
-    "sky_color": 37120,
+    "fog_color": 1645861,
+    "sky_color": 1317208,
     "water_color": 255,
     "water_fog_color": 255,
     "grass_color_modifier": "none",
@@ -27,11 +27,16 @@
     [],
     [],
     [],
-    [],
     [
-      "aoa3:celevus_trees",
+      "aoa3:celeve_lone_attractions"
+    ],
+    [
+      "aoa3:celevus_trees_custom_small",
       "aoa3:celebulbs",
-      "aoa3:celevians"
+      "aoa3:celeve_lamp_posts_small",
+      "aoa3:celeve_lamp_posts_big",
+      "aoa3:celevians",
+      "aoa3:baron_dead_plants"
     ],
     []
   ],

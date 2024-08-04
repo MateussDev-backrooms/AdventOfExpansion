@@ -9,12 +9,12 @@
                 "can_replace": false,
                 "project": true,
                 "need_water": false,
-                "xspread": 5,
+                "xspread": 8,
                 "yspread": 3,
-                "zspread": 5,
+                "zspread": 8,
                 "whitelist": [],
                 "blacklist": [],
-                "tries": 16,
+                "tries": 24,
                 "state_provider": {
                   "entries": [
                     {
@@ -39,6 +39,24 @@
                       "weight": 10,
                       "data": {
                         "Name": "aoa3:red_celevians"
+                      }
+                    },
+                    {
+                      "weight": 40,
+                      "data": {
+                        "Name": "aoa3:dead_grass"
+                      }
+                    },
+                    {
+                      "weight": 10,
+                      "data": {
+                        "Name": "aoa3:yellow_celebulbs"
+                      }
+                    },
+                    {
+                      "weight": 10,
+                      "data": {
+                        "Name": "aoa3:green_celebulbs"
                       }
                     }
                   ],
